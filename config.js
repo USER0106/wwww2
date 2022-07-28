@@ -10,7 +10,7 @@ global.mods = ['6281326024103'] //ganti pakai nomormu biar bot berfungsi
 global.prems = ['6281326024103'] //ganti pakai nomormu biar bot berfungsi
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'ī.am/𝘨𝘢𝘢𝘳𝘢'
+global.nameowner = '𝙶𝚊𝚊𝚛𝚊 𝚂𝚎𝚝𝚢𝚊𝚠𝚊𝚗'
 global.numberowner = '6281326024103' //ganti pakai nomor mu
 global.instagram = 'https://instagram.com/gaara_xploite' //ganti pakai Instagram mu
 global.github = 'https://github.com/gaara-ofc' //ganti aja pakai githubmu
@@ -24,7 +24,7 @@ global.pulsa = '081326024103' //ganti pakai nomor pulsa mu
 global.gopay = '082331325657' //ganti pakai nomor Gopay mu
 
 //=============『 Info Bot 』=================//
-global.namebot = '❋ཻུ۪۪⸙𝐆𝛼𝞪ᴦ𝗮 𝔐𝔒⳹ ❋ཻུ۪۪' //ganti jadiin nama bot mu
+global.namebot = '❋ཻུ۪۪⸙𝐆𝐚𝐚𝐫𝐚 𝐌𝐃⳹ ❋ཻུ۪۪' //ganti jadiin nama bot mu
 global.gc = 'https://chat.whatsapp.com/CCyaeuaLuUbAmWCvQvFJLm' //ganti pakai grup mu
 global.web = 'https://instagram.com/gaara_xploite' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.webm = 'https://instagram.com/gaara_xploite' //ganti pakai Instagram mu
@@ -44,9 +44,9 @@ global.fotonya8 = 'https://telegra.ph/file/14ec0e0c93af4812d1fd7.jpg' //foto ses
 global.donasi = 'https://telegra.ph/file/518ed653e716ef72e91e9.jpg' //ganti pakai poto payment atau apa
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '❋ཻུ۪۪⸙𝐆𝛼𝞪ᴦ𝗮 𝔐𝔒⳹ ❋ཻུ۪۪'
+global.wm = '❋ཻུ۪۪⸙𝐆𝐚𝐚𝐫𝐚 𝐌𝐃⳹ ❋ཻུ۪۪'
 global.watermark = wm
-global.wm2 = 'ᯤ creator by Oᵂηʀ᭄๖ོۣۣī.am/𝘨𝘢𝘢𝘳𝘢1꧅'
+global.wm2 = 'ᯤ creator by 𝙶𝚊𝚊𝚛𝚊 𝚂𝚎𝚝𝚢𝚊𝚠𝚊𝚗'
 global.wm3 = 'ᯤ ī.am/𝘨𝘢𝘢𝘳𝘢 𝙾𝙵𝙲'
 global.htki = '––––––『' 
 global.htka = '』––––––'
@@ -57,7 +57,7 @@ global.eror = '_*🚨 Server Bot Sedang Error*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '⏳ Stiker sedang Proses'
-global.packname = 'ꮐ𝛼𝜶𝘳𝖆 𝗠𝐷'
+global.packname = '𝐆𝐚𝐚𝐫𝐚 𝐌𝐃'
 global.author = '@gaara_xploite'
 
 //=============『 Apikey 』================== //
