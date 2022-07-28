@@ -5,7 +5,7 @@ let krizyn = `
 ╭─❑ 「 *SOSIAL MEDIA* 」 ❑──
 │ Follow sosial media
 │ owner yuk biar saling
-│ kenal...
+│ kenal:v...
 ╰❑
 	`.trim()
   let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya6)).buffer()}, { upload: conn.waUploadToServer }) 

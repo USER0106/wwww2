@@ -3,16 +3,16 @@ let handler = async (m, {conn}) => {
 const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:;;;
-FN: ᴹᴿ᭄ ZifaOffcོ_1ঔৣ꧂
-item.ORG: ᴹᴿ᭄ ZifaOffcོ_1ঔৣ꧂
-item1.TEL;waid=6285828377610:6285828377610@s.whatsapp.net
+FN: ī.am/𝘨𝘢𝘢𝘳𝘢_1ঔৣ꧂
+item.ORG: ᴹᴿ᭄ GaaraOffcོ_1ঔৣ꧂
+item1.TEL;waid=6281326024103:6281326024103@s.whatsapp.net
 item1.X-ABLabel:owner selalu ada 
-item2.EMAIL;type=INTERNET: anidaanida59@gmail.com
+item2.EMAIL;type=INTERNET: gaarasetyawan@gmail.com
 item2.X-ABLabel:📧Email
-item3.ADR:;;🎍Pontianak;;;;
+item3.ADR:;;🎍Wonosobo;;;;
 item3.X-ABADR:ac
 item3.X-ABLabel:asal kota
-item4.URL:https//github.com/Botynyakamu
+item4.URL:https//github.com/gaara-ofc
 item4.X-ABLabel:Website
 END:VCARD`
 const sentMsg  = await conn.sendMessage(
@@ -24,8 +24,8 @@ const sentMsg  = await conn.sendMessage(
         }
     }
 )
-let rozi = 'https://telegra.ph/file/6de3ca8fe283f2e236ec4.jpg'
-await conn.send3ButtonImg(m.chat, rozi, "*Hai kak👋,  Itu nomor owner gw…*", '📮: jngn di spam kack', 'Source code', '.sc', 'Back', '.menu', 'Donasi', '.donasi', sentMsg)}
+let rozi = 'https://telegra.ph/file/518ed653e716ef72e91e9.jpg'
+await conn.send3ButtonImg(m.chat, rozi, "*Hai kak👋,  Itu nomor owner ku…*", '📮: jngn di spam kack', 'Source code', '.sc', 'Back', '.menu', 'Donasi', '.donasi', sentMsg)}
 handler.help = ['owner2', 'creator2']
 handler.tags = ['info']
 
