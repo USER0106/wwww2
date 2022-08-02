@@ -23,7 +23,7 @@ let krizyn = `
                 {
                urlButton: {
                displayText: '🪀Wa owner🪀',
-               url: 'https://wa.me/6281326024103'
+               url: 'https://wa.me/6282154156241'
              }
 
            },
