@@ -17,14 +17,14 @@ global.github = 'https://github.com/USER0106' //ganti aja pakai githubmu
 global.tt = 'https://vt.tiktok.com/gakpunya' //ganti aja pakai tiktok mu
 global.sc = 'https://youtube.com/gaaraofc' //jngn ganti hargai creator
 global.ss = 'https://youtube.com/gaaraofc' //jngn ganti hargai creator
-global.sss = 'https://instagram.com/gaara_xploite' //jngn ganti hargai creator
+global.sss = 'https://instagram.com/amirrwibuu_01' //jngn ganti hargai creator
 global.yt = 'https://youtube.com/gaaraofc'
 global.dana = '082154156241' //ganti pakai nomor dana mu
 global.pulsa = '082154156241' //ganti pakai nomor pulsa mu
 global.gopay = '082331325657' //ganti pakai nomor Gopay mu
 
 //=============『 Info Bot 』=================//
-global.namebot = 'Killua-bot' //ganti jadiin nama bot mu
+global.namebot = 'Amerr' //ganti jadiin nama bot mu
 global.gc = 'https://chat.whatsapp.com/CCyaeuaLuUbAmWCvQvFJLm' //ganti pakai grup mu
 global.web = 'https://instagram.com/AmirrWibuu_01' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.webm = 'https://instagram.com/AmirrWibuu_01' //ganti pakai Instagram mu
@@ -44,10 +44,10 @@ global.fotonya8 = 'https://telegra.ph/file/14ec0e0c93af4812d1fd7.jpg' //foto ses
 global.donasi = 'https://telegra.ph/file/518ed653e716ef72e91e9.jpg' //ganti pakai poto payment atau apa
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = 'Killua-bot'
+global.wm = 'Amerr'
 global.watermark = wm
 global.wm2 = 'ᯤ creator by Amirr'
-global.wm3 = 'ᯤ ī.am/𝘨𝘢𝘢𝘳𝘢 𝙾𝙵𝙲'
+global.wm3 = 'ᯤ Amerr'
 global.htki = '––––––『' 
 global.htka = '』––––––'
 global.media = 'https://telegra.ph/file/72168c6f1aaa90315c369.jpg'
@@ -57,7 +57,7 @@ global.eror = '_*🚨 Server Bot Sedang Error*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '⏳ Stiker sedang Proses'
-global.packname = 'Killua-bot'
+global.packname = 'Amerr'
 global.author = '@AmirrWibuu_01'
 
 //=============『 Apikey 』================== //
