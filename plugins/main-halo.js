@@ -25,7 +25,7 @@ Runtime: ${uptime}`
     status: 1,
     surface : 1,
     message: `2022 © ${namebot}, 
-    orderTitle: `gaarabotz_offc`,
+    orderTitle: `Amirrr`,
     thumbnail: 'https://telegra.ph/file/518ed653e716ef72e91e9.jpg', 
     sellerJid: '0@s.whatsapp.net' 
     }
