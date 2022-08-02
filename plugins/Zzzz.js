@@ -44,7 +44,7 @@ let krizyn = `
                 {
                urlButton: {
                displayText: '🔮Myweb🔮',
-               url: 'https://istagram.com/gaara_xploite'
+               url: 'https://istagram.com/amirrwibuu_01'
              }
 
            },
