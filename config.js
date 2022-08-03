@@ -10,22 +10,22 @@ global.mods = ['6282154156241'] //ganti pakai nomormu biar bot berfungsi
 global.prems = ['6282154156241'] //ganti pakai nomormu biar bot berfungsi
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'Killua-bot'
+global.nameowner = 'Amirr'
 global.numberowner = '6282154156241' //ganti pakai nomor mu
 global.instagram = 'https://instagram.com/AmirrWibuu_01' //ganti pakai Instagram mu
 global.github = 'https://github.com/USER0106' //ganti aja pakai githubmu
-global.tt = 'https://vt.tiktok.com/gakpunya' //ganti aja pakai tiktok mu
-global.sc = 'https://youtube.com/gaaraofc' //jngn ganti hargai creator
-global.ss = 'https://youtube.com/gaaraofc' //jngn ganti hargai creator
+global.tt = 'https://lynk.id/amirr' //ganti aja pakai tiktok mu
+global.sc = 'https://github.com/USER0106' //jngn ganti hargai creator
+global.ss = 'https://lynk.id/amirr' //jngn ganti hargai creator
 global.sss = 'https://instagram.com/amirrwibuu_01' //jngn ganti hargai creator
-global.yt = 'https://youtube.com/gaaraofc'
+global.yt = 'https://lynk.id/amirr'
 global.dana = '082154156241' //ganti pakai nomor dana mu
 global.pulsa = '082154156241' //ganti pakai nomor pulsa mu
-global.gopay = '082331325657' //ganti pakai nomor Gopay mu
+global.gopay = '082154156241' //ganti pakai nomor Gopay mu
 
 //=============『 Info Bot 』=================//
 global.namebot = 'Amerr' //ganti jadiin nama bot mu
-global.gc = 'https://chat.whatsapp.com/CCyaeuaLuUbAmWCvQvFJLm' //ganti pakai grup mu
+global.gc = 'https://chat.whatsapp.com/EWKkAPaegarA4CvunrdIDr' //ganti pakai grup mu
 global.web = 'https://instagram.com/AmirrWibuu_01' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.webm = 'https://instagram.com/AmirrWibuu_01' //ganti pakai Instagram mu
 global.saweria = 'https://saweria.co/Amirr' //bebas ganti aja pakai apa
