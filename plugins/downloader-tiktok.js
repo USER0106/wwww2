@@ -1,31 +1,32 @@
-import { tiktokdl } from '@bochilteam/scraper'
+import fetch from 'node-fetch'
 
-let handler = async (m, { conn, args, usedPrefix, command }) => {
-if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/@omagadsus/video/7025456384175017243`
-    const { author: { nickname }, video, description } = await tiktokdl(args[0])
-    const url = video.no_watermark || video.no_watermark2 || video.no_watermark_raw
-    if (!url) throw 'Can\'t download video!'
-    conn.sendFile(m.chat, url, 'tiktok.mp4', `*「 T I K T O K 」*
-                 ████████▀▀▀████
-                 ████████────▀██
-                 ████████──█▄──█
-                 ███▀▀▀██──█████
-                 █▀──▄▄██──█████
-                 █──█████──█████
-                 █▄──▀▀▀──▄█████
-                 ███▄▄▄▄▄███████
-──────────────────────────*
-
-*📛Nickname:* ${nickname}
-*📒Description:* ${description}
-
-_https://fangzbot.websites.co.in/_
-`.trim(), m)
+let handler = async (m, { conn, text, usedPrefix }) => {
+	if (!text) throw 'Input URL' 
+	if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw 'Invalid URL'
+	let url = (await fetch(text)).url
+	let res = await (await fetch(`https://api2.musical.ly/aweme/v1/aweme/detail/?aweme_id=${url.split('?')[0].split('/')[5]}`)).json()
+	let data = res.aweme_detail.video.play_addr.url_list
+	if (!data.length) throw 'Can\'t download video!'
+	let meta = await getInfo(url).catch(_ => {})
+	await m.reply('_In progress, please wait..._')
+	let buttons = [{ buttonText: { displayText: 'Audio' }, buttonId: `${usedPrefix}tomp3` }]
+	conn.sendMessage(m.chat, { video: { url: data[data.length - 1] }, caption: meta?.description || null, footer: await shortUrl(data[data.length - 1]), buttons }, { quoted: m })
+	// conn.sendMessage(m.chat, { video : { url: res.link }, caption: description }, { quoted: m })
 }
-handler.help = ['tiktok', 'tiktok', 'tiktokdl'].map(v => v + ' <url>')
+handler.help = ['tiktok']
 handler.tags = ['downloader']
-handler.command = /^(tik(tok)?(tok)?(dl)?)$/i
+handler.alias = ['tiktok', 'tikdl', 'tiktokdl', 'tiktoknowm']
+handler.command = /^(tt|tiktok)(dl|nowm)?$/i
 
 export default handler
 
-//BY FANGZ
+async function getInfo(url) {
+	// url = (await fetch(url)).url
+	let id = url.split('?')[0].split('/')
+	let res = await (await fetch(`https://www.tiktok.com/node/share/video/${id[3]}/${id[5]}/`)).json()
+	return res?.seoProps?.metaParams
+}
+
+async function shortUrl(url) {
+	return await (await fetch(`https://tinyurl.com/api-create.php?url=${url}`)).text()
+}
